@@ -58,11 +58,3 @@ The following packages were added:
   com.unity.polybrush@1.0.2
   com.unity.postprocessing@3.0.3
   com.unity.probuilder@4.5.0
-
-=== Tue Sep 14 13:27:56 2021
-
-Packages were changed.
-Update Mode: mergeDefaultDependencies
-
-The following packages were added:
-  com.unity.render-pipelines.high-definition@7.3.1
