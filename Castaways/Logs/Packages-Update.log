@@ -1,5 +1,5 @@
 
-=== Thu Aug 26 10:25:14 2021
+=== Fri Sep 17 21:07:04 2021
 
 Packages were changed.
 Update Mode: mergeDefaultDependencies
@@ -44,17 +44,3 @@ The following packages were added:
   com.unity.textmeshpro@3.0.6
   com.unity.timeline@1.4.8
   com.unity.ugui@1.0.0
-
-=== Tue Sep 14 12:11:49 2021
-
-Packages were changed.
-Update Mode: mergeDefaultDependencies
-
-The following packages were added:
-  com.unity.2d.sprite@1.0.0
-  com.unity.2d.tilemap@1.0.0
-  com.unity.cinemachine@2.6.3
-  com.unity.ext.nunit@1.0.6
-  com.unity.polybrush@1.0.2
-  com.unity.postprocessing@3.0.3
-  com.unity.probuilder@4.5.0
