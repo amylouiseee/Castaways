@@ -13,15 +13,15 @@ public class AttackBuff : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.tag == "Player")
-        {
-            Instantiate(EffectPre, other.transform.position - new Vector3(0, 0.1f, 0), Quaternion.identity);
-            Player.HurtNum += 25;
-            Destroy(gameObject);
-        }
-    }
+    //private void OnTriggerEnter(Collider other)
+    //{
+    //    if (other.tag == "Player")
+    //    {
+    //        Instantiate(EffectPre, other.transform.position - new Vector3(0, 0.1f, 0), Quaternion.identity);
+    //        Player.HurtNum += 25;
+    //        Destroy(gameObject);
+    //    }
+    //}
 
 
 }
