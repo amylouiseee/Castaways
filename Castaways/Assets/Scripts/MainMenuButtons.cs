@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MainMenuButtons : MonoBehaviour
 {
@@ -15,11 +16,13 @@ public class MainMenuButtons : MonoBehaviour
     {
         if (playButton) //play behaviour
         {
-            Application.LoadLevel(1);
+            // Application.LoadLevel(1);
+            SceneManager.LoadScene("LevelMenu");
         }
         if (shopButton) // shop behaviour
         {
             //not implemented yet
+            SceneManager.LoadScene("01Start");
         }
         if (settingsButton) // settings behaviour
         {
@@ -27,7 +30,11 @@ public class MainMenuButtons : MonoBehaviour
         }
         if (exitButton) // exit behaviour
         {
-            Application.Quit();
+#if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+#else
+      Application.Quit();
+#endif
         }
     }
 
