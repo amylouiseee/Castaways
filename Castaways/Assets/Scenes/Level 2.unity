@@ -2570,9 +2570,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 =======
+=======
+>>>>>>> Stashed changes
   m_RootOrder: 126
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &483711408
@@ -6810,8 +6813,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1855001884}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: -10}
+=======
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.32999992, y: 3.1, z: -4.5}
+>>>>>>> Stashed changes
 =======
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.32999992, y: 3.1, z: -4.5}
